@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Sail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sail&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: .01rem;
+
+}
+
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    position:relative;
+
+    /* background: #000; */
+    height: 100vh;
+  }
+.log{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    transition: linear .1s;
+    color: white;
+}
+.log:hover{
+    color: black;
+    cursor: pointer;
+    transform: scale(1.04);
+    
+}
+
+
+.container a div:hover{
+    transform: scale(1.1);
+}
+.container a div{
+    transition: linear .3s;
+}
+.heroword{
+
+    background-color: #CA0202;
+    height: 100vh;
+    width: 15rem;
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+    font-family: 'Sail', cursive;
+    color: white;
+    letter-spacing: .07rem;
+    position: absolute;
+     z-index: -999;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    /* z-index: 999; */
+    justify-content: space-between;
+    /* height: 100rem;*/
+    width: 99vw;
+    margin-top: 11rem;
+    align-items: center;
+    padding: 5rem;
+    transition: linear .26s;
+   
+}
+.container:hover{
+    
+    background: rgba(0, 0, 0, 0.45);
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
+    
+}
+.heroword:hover{
+    z-index: 999;
+}

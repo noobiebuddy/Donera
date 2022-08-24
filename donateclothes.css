@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sail&display=swap");
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --p: #f43692;
+  --bg: #0d0f45;
+  --f1: "Roboto", sans-serif;
+  --f2: "Open Sans", sans-serif;
+  --f3: "Sail", cursive;
+  --font1: variex, sans-serif;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #070b7e;
+  color: #fff;
+}
+
+#logo {
+  color: var(--p);
+  font-size: 1.8rem;
+  font-family: var(--font1);
+  cursor: pointer;
+}
+
+.mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 30rem;
+  font-family: var(--f1);
+}
+
+.bt {
+  padding: 5px 50px;
+  margin-right: 6rem;
+  border: 3px solid var(--p);
+  font-size: 1.3rem;
+  font-family: var(--f2);
+  font-weight: 700;
+}
+
+.out {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+}
+
+#innerNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 700;
+  font-family: var(--f2);
+}
+
+h1 {
+  font-family: var(--f3);
+}
+.hover {
+  color: white;
+  transition: linear 0.3s;
+}
+.hover:hover {
+  color: var(--p);
+}
+.op {
+  color: var(--p);
+}
+#money {
+  background-color: #011634;
+  margin: 20px;
+  padding: 30px;
+  font-family: var(--f2);
+  border: 2px solid #fff;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: #fff;
+}
+
+.first {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 15px;
+}
+.bt {
+  padding: 5px 50px;
+  margin-right: 6rem;
+  border: 3px solid var(--p);
+  font-size: 1.3rem;
+  font-family: var(--f2);
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  transition: linear 0.4s;
+  position: relative;
+}
+.bt:hover {
+  background-color: white;
+  color: black;
+  letter-spacing: 0.1rem;
+  border: 3px solid white;
+  border-radius: 50px;
+  font-weight: bolder;
+}
+
+p {
+  margin: 25px;
+  font-size: 1.3rem;
+}
+.razor:hover{
+  transform: scale(1.03);
+  transition: linear .3s;
+}
+.btn a {
+  padding: 5px 150px;
+  background-color: var(--p);
+}
+.container {
+  background-color: #fff;
+  height: 25rem;
+  width: 45rem;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: var(--f2);
+  box-shadow: 0px 0px 15px black;
+}
+form {
+  padding-top: 4rem;
+}
+::placeholder {
+  align-content: center;
+  justify-content: center;
+  color: black;
+}
+::placeholder:focus {
+  align-content: center;
+  justify-content: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  height: 2.2rem;
+  width: 20rem;
+  outline: none;
+  margin: 0.4rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  padding-left: 1rem;
+  border-color: black;
+  border-width: 0.1rem;
+  transition: all 0.3s linear;
+}
+input[type="email"]::placeholder,
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+  font-weight: bold;
+  color: #1c1c1c;
+}
+textarea:focus,
+input:focus {
+  padding-left: 1rem;
+  outline: none;
+}
+textarea {
+  height: 4rem;
+  width: 20rem;
+  outline: none;
+  margin: 0.4rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  border-color: black;
+  border-width: 0.1rem;
+  font-family: var(--f2);
+  transition: all 0.3s linear;
+}
+textarea::placeholder {
+  font-weight: bold;
+  color: #1c1c1c;
+}
+button[type="submit"] {
+  margin-top: 0.1rem;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  height: 2.2rem;
+  width: 20rem;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  transition: linear 0.3s;
+}
+button[type="submit"]:hover {
+  transform: scale(1.02);
+  background-color: blueviolet;
+  color: var(--bb);
+}
+input::placeholder {
+  color: #ffffff;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  color: grey;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="admindash.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zdk2sfw.css">
+    <link rel="icon" href="http://localhost/forhope/img/iconz.ico">
+</head>
+<body>
+    <div class="mid">
+        
+        <h1 class="heroword">
+                Dashboard
+        </h1>
+        <div class="container">
+            <a href="food.php">
+                <div title="FOOD ORDERS">
+                    <img src="http://localhost/forhope/img/undraw_breakfast_psiw.svg" height="300" width="400" alt="">
+                </div>
+            </a>
+            <a href="clothes.php">
+                <div title="CLOTHES ORDERS">
+                    <img src="http://localhost/forhope/img/undraw_career_progress_ivdb.svg" alt="">
+                </div>
+            </a>
+            <a href="things.php">
+                <div title="OTHER THINGS">
+                    <img src="http://localhost/forhope/img/undraw_Order_delivered_re_v4ab.svg" alt="" >
+                </div>
+            </a>
+        </div>
+        <a class="log" onclick="redirect()">L O G O U T</a>
+    </div>
+</body>
+<script>
+    function redirect(){
+        location="http://localhost/forhope/admin.html"
+    }
+</script>
+</html>

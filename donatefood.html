@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/zdk2sfw.css">
+    <link rel="stylesheet" href="./donatefood.css">
+    <link rel="icon" href="http://localhost/forhope/img/iconz.ico">
+    <title>Donera</title>
+</head>
+<body>
+    <nav>
+        <div id="logo">Donera</div>
+        <div class="mid">
+        <div><a class="hover" href="./homepage_clone.html">Home</a></div>
+        <div><a class="hover" href="./homepage_clone.html">Gallery</a></div>
+        <div><a class="hover" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nabeelmuhammedsn@email.com"
+            target="_blank">Contact</a></div>
+        </div>
+        <div><a href="./donate.html" class="bt">DONATE</a></div> 
+        <div class="out"><a href="./login.html"><img src="http://localhost/forhope/img/logout_black_24dp.svg" alt="logout"></a> </div> 
+    </nav>
+
+    <div id="innerNav">
+        <div><a class="hover" href="./donate.html">DONATE MONEY</a></div>
+        <div><a class="op" href="./donatefood.html">DONATE FOOD</a></div>
+        <div><a class="hover" href="./donateclothes.html">DONATE CLOTHES</a></div>
+        <div><a class="hover" href="./donate.html">DONATE UNUSED THINGS</a></div>
+    </div>
+
+    <div id="money">
+        <h1>Donate Money</h1>
+        <div class="first">
+            <p align="center">Eliminating hunger has a long way to go, in order to ensure a long lasting goal, we have
+               <br> to start with single step.In times when food is not available, we help the  hungry  <br>
+                families directly sending the cash you donate us!
+            </p>
+
+            <div class="btn">
+                <form class="razor"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HK3RTiM66KZr6A" async> </script> </form>
+            </div>
+        </div>
+        <div class="food" id="food" >
+            <h1> Donate Food </h1>
+            <div class="first">
+               <center>
+                   <p>Eliminating hunger has a long way to go, in order to ensure a long lasting goal, we have
+                    <br> to start with single step.In times when food is not available, we help the  hungry  <br>
+                     families directly sending the cash you donate us!
+                       
+                   </p>
+               </center>
+    
+            </div>
+        </div>
+        <center>
+            <div class="container" >
+                <form action="./donatefood.php" method="POST" class="formm">
+                    <div><input type="text" name="name" placeholder="  FullName" required></div>
+                    <div><input type="text" name="foodtype" placeholder="  Type of food" required></div>
+                    <div><input type="text" name="contact" placeholder="  Contact Number" required onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" maxlength="10"></div>
+                    <div>
+                        <textarea name="address" rows="4" cols="30" placeholder=" Enter Pick Address" required style="resize: vertical; overflow: hidden;"></textarea>  </textarea>
+                    </div>
+                    
+                    <div><button type="submit" name="submit">SUBMIT</button></div>
+                   
+                </form> 
+    
+            </div>
+        </center>
+    </div>
+    
+    
+</body>
+</html>
+<!-- https://formspree.io/f/xeqvvdbe -->

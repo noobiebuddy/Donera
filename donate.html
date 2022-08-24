@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/zdk2sfw.css">
+    <link rel="stylesheet" href="./donate.css">
+    <link rel="icon" href="http://localhost/forhope/img/iconz.ico">
+    <title>Donera</title>
+</head>
+<body>
+    <nav>
+        <div id="logo">Donera</div>
+        <div class="mid">
+        <div><a class="hover" href="./homepage_clone.html">Home</a></div>
+        <div><a class="hover" href="./homepage_clone.html">Gallery</a></div>
+        <div><a class="hover" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nabeelmuhammedsn@email.com"
+            target="_blank">Contact</a></div>
+        </div>
+        <div><a href="#" class="bt">DONATE</a></div> 
+        <div class="out"><a href="./login.html"><img src="http://localhost/forhope/img/logout_black_24dp.svg" alt="logout"></a> </div> 
+    </nav>
+
+    <div id="innerNav">
+        <div><a class="op" href="#money">DONATE MONEY</a></div>
+        <div><a class="hover" href="#food">DONATE FOOD</a></div>
+        <div><a class="hover" href="#Clothes">DONATE CLOTHES</a></div>
+        <div><a class="hover" href="#things">DONATE UNUSED THINGS</a></div>
+    </div>
+
+    <div id="money">
+        <h1>Donate Money</h1>
+        <div class="first">
+            <p align="center">Eliminating hunger has a long way to go, in order to ensure a long lasting goal, we have
+               <br> to start with single step.In times when food is not available, we help the  hungry  <br>
+                families directly sending the cash you donate us!
+            </p>
+            <p align="center">Not only their hunger subsides, but also they get a chance to choose their own meal! <br>
+                We will be transparent in our every step of process and you get the smiling faces <br>
+                and blessings of the people whose lives you changed!
+            </p>
+            <div class="btn">
+                <form class="razor"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HK3RTiM66KZr6A" async> </script> </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="food">
+        <h1>Donate Food</h1>
+        <div class="side">
+        <div class="sideinner"><h2>DONATE MONEY FOR FOOD</h2><img src="http://localhost/forhope/img/undraw_Savings_re_eq4w.svg" alt=""></div>
+        <div class="centree">
+            <div>&nbsp;</div>
+            <div class="bot1"><a href="./donatefood.html">LEARN MORE</a></div>
+        </div>
+        <div class="sideinner"><h2>DONATE SURPLUS FOOD FROM FUNCTION</h2><img src="http://localhost/forhope/img/undraw_breakfast_psiw.svg" alt=""></div>
+        </div>
+    </div>
+
+    <div id="Clothes">
+        <h1>Donate Clothes</h1>
+        <div class="side">
+        <div class="sideinner"><h2>DONATE MONEY TO BUY CLOTHES</h2><img src="http://localhost/forhope/img/undraw_transfer_money_rywa (1).svg" alt=""></div>
+        <div class="centree">
+            <div>&nbsp;</div>
+            <div class="bot"><a href="./donateclothes.html">LEARN MORE</a></div>
+        </div>
+        <div class="sideinner"><h2>DONATE SURPLUS CLOTHES</h2><img src="http://localhost/forhope/img/undraw_career_progress_ivdb.svg" alt=""></div>
+        </div>
+    </div>
+
+    <div id="things">
+        <h1>Donate Unused Things</h1>
+        <div class="first">
+            <p align="center">Eliminating hunger has a long way to go, in order to ensure a long lasting goal, we have
+               <br> to start with single step.In times when food is not available, we help the  hungry  <br>
+                families directly sending the cash you donate us!
+            </p>
+            <p align="center">Not only their hunger subsides, but also they get a chance to choose their own meal! <br>
+                We will be transparent in our every step of process and you get the smiling faces <br>
+                and blessings of the people whose lives you changed!
+            </p>
+            <div align="center" class="frm">
+                <form action="./donatethings.php" method="POST">
+                    <div><input type="text" name="name" placeholder="  Enter your FullName" required></div>
+                    <div><input type="text" name="typeofthing" placeholder="  Type of Things" required></div>
+                    <div>
+                        <textarea name="description" rows="4" cols="30" placeholder=" Description about Things" required></textarea>  </textarea>
+                    </div>
+                    <div>
+                        <textarea name="address" rows="4" cols="30" placeholder=" Pick Address" required ></textarea>  </textarea>
+                    </div>
+                    
+                    <div><button type="submit" name="submit">SUBMIT</button></div>
+                   
+                </form> 
+            </div>
+        </div>
+     
+    </div>    
+</body>
+</html>

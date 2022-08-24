@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost/forhope/homepage_clone.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zdk2sfw.css">
+    <link rel="icon" href="http://localhost/forhope/img/iconz.ico">
+    <title>Donera</title>
+</head>
+<body>
+    <nav>
+        <div id="logo">Donera</div>
+        <div class="mid">
+        <div><a class="op" href="./homepage_clone.html">Home</a></div>
+        <div><a class="hover" href="#gala">Gallery</a></div>
+        <div><a class="hover" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nabeelmuhammedsn@email.com"
+            target="_blank">Contact</a></div>
+        </div>
+        <div><a href="./donate.html" class="bt">DONATE</a></div> 
+        <div class="out"><a href="./login.html"><img src="http://localhost/forhope/img/logout_black_24dp.svg" alt="logout"></a> </div> 
+    </nav>
+<div class="hero">
+    <div class="svg1">
+        <img src="http://localhost/forhope//img/undraw_pay_online_b1hk (1).svg">
+    </div>
+    <div class="para">
+        <div class="quotes">
+            <p>"Giving is not just about making a donation.<br>
+                It is about making a difference."</p>
+        </div>  
+        <div class="line"></div>
+        <div class="abt1">
+            <p class="p1">We are nonprofit team and work worldwide</p><br>
+            <p class="p1">Our approach is rooted in years of on-the-ground experience, driven 
+                by a careful methodology and powered by a deep passion to improve 
+                the lives of children and give them a chance to grow up in a family.</p><br>
+            <p class="p1">We believe in collaboration as we know this work is bigger than any
+                one organization. We are part of a global network of nonprofit 
+                organizations leading the worldwide movement.</p>
+        </div>
+    </div>
+    <div class="svg2">
+        <img src="http://localhost/forhope//img/gift.svg">
+    </div>
+</div>
+<section class="curse">
+    <div class="q_svg">
+        <p class="q">
+            GIVING THOSE IN NEED WILL BRING MORE JOY THAN <br />
+            MONEY COULD NEVER BUY <button class="dbtn"><a href="./donate.html">DONATE</button></a>
+          </p>
+          
+          <img class="svg3" src="http://localhost/forhope//img/undraw_wallet_aym5.svg"/>
+    </div>
+</section>
+<section class="gala" id="gala">
+    <span class="galaword">Gallery</span>
+    <div id="gallery" style="scroll-behavior: smooth;">
+        <img id="slideback" src="http://localhost/forhope//img/arrowback.svg">
+        <img class="forslide" src="img/paati.jpg">
+        <img class="forslide" src="img/o-LAHORE-RAMADAN-facebook.jpg">
+        <img class="forslide" src="img/picgirl.jpg">
+        <img class="forslide" src="img/picbaby.jpg">
+        <img class="forslide" src="img/exchange.jpg">
+        <img id="slide" src="http://localhost/forhope//img/arrowforward.svg">
+        </div>
+        
+</section>
+<script>
+    var button = document.getElementById('slideback');
+button.onclick = function () {
+    document.getElementById('gallery').scrollLeft -= 640 ;
+};
+    var button = document.getElementById('slide');
+button.onclick = function () {
+    document.getElementById('gallery').scrollLeft += 640;
+};
+
+</script>
+
+<footer>
+    <div class="foot">
+        <P class="fs1">SIGN UP FOR NEWSLETTER</P>
+        <P class="fs2">Sign up to stay up to date on work around the world.</P>
+        <div class="nbtn">
+            <form action="https://formspree.io/f/xzbyywlz" method="POST">
+                <input
+                  type="email"
+                  name="_replyto"
+                  placeholder="  Enter Email Address"
+                  required
+                />
+                <input type="submit" value="SUBMIT" />
+              </form>
+        </div>
+        <div class="anc">
+            <a href="tel:9360537239"><img class="social" src="http://localhost/forhope//img/call_black_24dp.svg" alt="+91 9360537239"></img></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nabeelmuhammedsn@email.com"
+            target="_blank"><img class="social" src="http://localhost/forhope//img/gmail-svgrepo-com.svg"></img></a>
+            <a href="https://www.instagram.com/mister.j____" target="_blank"><img class="social" src="http://localhost/forhope//img/insta.svg"></img></a>
+            <a href="https://goo.gl/maps/yyBNvgW2qmnYxmNB7"  target="_blank"><img class="social" src="http://localhost/forhope//img/location_on_black_24dp.svg"></img></a>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>

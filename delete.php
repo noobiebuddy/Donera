@@ -1,0 +1,22 @@
+<?php 
+include "config.php";
+
+
+if (isset($_GET['Name'])) {
+	$name = $_GET['Name'];
+
+	
+	$sql = "DELETE FROM `donatefood` WHERE `Name`='$name'";
+
+
+
+	$result = $conn->query($sql);
+
+	if ($result == TRUE) {
+        header('location: http://localhost/forhope/food.php');
+	}else{
+		echo "Error:" . $sql . "<br>" . $conn->error;
+	}
+}
+
+?>
